@@ -1,0 +1,26 @@
+Esquimal aaju 181 172
+
+Esquimal alek 445 27
+
+EsquimalSordo aguu 354 180
+
+EsquimalSordo ivanna 19 298
+
+EsquimalExperto abdul 419 171
+
+EsquimalExplorador nanuk 0 500
+
+EsquimalExplorador sialuk 0 500
+
+HuecoPesca pescaArriba 250 500
+
+HuecoPesca pescaAbajo 250 0
+
+Iglu superiorDerecha 500 500
+
+Iglu superiorIzquierda 0 500
+
+Iglu inferiorIzquierda 0 0
+
+Iglu inferiorDerecha 500 0
+

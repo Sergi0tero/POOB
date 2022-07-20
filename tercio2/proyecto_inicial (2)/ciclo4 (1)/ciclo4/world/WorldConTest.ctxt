@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=WorldConTest
+comment0.text=\r\n\ resuelve\ el\ juego\ \r\n\r\n\ @author\ Archila\ -\ Otero\r\n
+comment1.params=
+comment1.target=WorldConTest()
+comment1.text=\r\n\ resuelve\ el\ problema\ del\ mundo\r\n
+comment2.params=nations\ routes\ armies
+comment2.target=int\ solve(int,\ int[][],\ int[][])
+comment2.text=\r\n\ soluciona\ el\ mundo\r\n
+comment3.params=
+comment3.target=boolean\ ok()
+comment3.text=\r\n\ Devuelve\ si\ la\ accion\ se\ pudo\ hacer\r\n\ @return\ boolean\ si\ se\ pudo\ hacer/\ nos\ epudo\ hacer\r\n
+numComments=4

@@ -1,0 +1,195 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Graph {
+    private int nodo;
+    private double[] peso;
+    private String[] camino;
+    private ArrayList<String> nations;
+    private static int[][] aristas;
+    private boolean[] isVisited;
+    private double mejorPrecio = 0;
+    
+    /**
+     * Contructor del grafo
+     * 
+     * @param nodo int cantidad de nodos (naciones)
+     */
+    public Graph(int nodo){
+        this.nodo = nodo;
+        nations = new ArrayList<String>();
+        aristas  = new int[nodo][nodo];
+        isVisited = new boolean[nodo+1];
+        peso = new double[nodo];
+        camino = new String[nodo];
+        for (int i = 0; i <nodo ; i++) {
+            peso[i] = Double.POSITIVE_INFINITY;
+            camino[i] = null;
+        }
+    }
+    
+    /**
+     * Añade cada vertice en un array
+     * 
+     * @param s String color de la nacion
+     */
+    public  void addNation(String s){
+        nations.add(s);
+    }
+    
+    /**
+     * halla el nodo inicial
+     * 
+     * @param index int indice del nodo inicial
+     */
+    public int getNodoInicial(int index){
+        for (int i = 0; i <nations.size() ; i++) {
+            if (aristas[index][i]>0){
+                return i;
+            }
+        }
+        return nodo;
+    }
+    
+    /**
+     * halla el nodo siguiente al que estoy
+     * 
+     * @param index int indice del nodo en el que estoy
+     * @param NodoInicial int indice del nodo siguiente
+     */
+    public int getSiguienteNodo(int index,int NodoInicial){
+        for (int i = NodoInicial+1 ; i <nations.size() ; i++){
+            if (aristas[index][i]>0){
+                return i;
+            }
+        }
+        return nodo;
+    }
+    
+    /**
+     * Da el peso de un camino dependiendo de los indices de su inicio y fin
+     * 
+     * @param e1 int indice A
+     * @param e2 int indice B
+     * @param weight int peso del camino
+     */
+    public  void addRoutes(int e1,int e2 , int weight){
+        aristas[e1-1][e2-1] = weight;
+        aristas[e2-1][e1-1] = weight;
+    }
+    
+    public double getPrecio(){
+        return mejorPrecio;
+    }
+    
+    /**
+     * Hace el recorrido Dijkstra a base de un nodo
+     * 
+     * @param index int nacion inicial
+     * @param objNat String nacion objetivo
+     */
+    public String[] dijkstra(String actNat, String objNat){
+        reset();
+        int index = nations.indexOf(actNat);
+        int NodoUsado, headIndex = index;
+        peso[index]=0;
+        while (!isVisited[headIndex]){
+            NodoUsado = getNodoInicial(headIndex);
+            while(isVisited[NodoUsado]){
+                NodoUsado = getSiguienteNodo(headIndex,NodoUsado);
+            }
+            if (NodoUsado==nodo) {
+                isVisited[headIndex]=true;
+            }
+            else {
+                while (!isVisited[NodoUsado]&&NodoUsado<nodo) {
+                    isVisited[headIndex]=true;
+                    double currentDis = peso[headIndex]+aristas[headIndex][NodoUsado];
+                    if (currentDis<peso[NodoUsado]) {
+                        peso[NodoUsado] = currentDis;
+                        camino[NodoUsado] = camino[headIndex]+","+nations.get(headIndex);
+                    }
+                    NodoUsado = getSiguienteNodo(headIndex, NodoUsado);
+                }
+            }
+            headIndex = caminoMinimo(peso,isVisited);
+        }
+        for (int i = 0; i <nodo ; i++) {
+            camino[i] = camino[i]+","+nations.get(i);
+        }
+        for (int i = 0; i <nodo ; i++) {
+            if(nations.get(i) == objNat){
+                this.mejorPrecio = peso[i];
+                //System.out.println(camino[i]);
+                return camino[i].split(",");
+            }
+        }
+        return null;
+    }
+    
+    /**
+     * Retorna el peso del camino minimo
+     * 
+     * @param colorF String nodo final del recorrido
+     */
+    public double getpeso(String colorF){
+        for (int i = 0; i <nodo ; i++) {
+            if(nations.get(i) == colorF){
+                return peso[i];   
+            }
+        }
+        return Double.POSITIVE_INFINITY;
+    }
+    
+    /**
+     * Retorna una lista de los nodos por los que paso
+     * 
+     * @param colorF String nodo final del recorrido
+     */
+    public String[] getcamino(String colorF){
+        for (int i = 0; i <nodo ; i++) {
+            if(nations.get(i) == colorF){
+                String caminos[] = camino[i].split(" ");
+                return caminos;   
+            }
+        }
+        return null;
+    }
+    
+    /**
+     * Resetea peso, camino y los visitados
+     * 
+     */
+    public void reset(){
+        for (int i = 0; i <nodo ; i++) {
+            camino[i] = "";
+        }
+        for (int i = 0; i <nodo ; i++) {
+            peso[i] = Double.POSITIVE_INFINITY;
+        }
+        isVisited = new boolean[nodo+1];
+    }
+    
+    /**
+     * Halla el camino minimo
+     * 
+     * @param peso double[] peso de los caminos recorridos
+     * @param isVisited boolean[] lista de booleanos para saber si el nodo ya fue visitado o no
+     */
+    public int caminoMinimo(double[] peso, boolean[] isVisited){
+        int j=0;
+        double mindis=Double.POSITIVE_INFINITY;
+        for (int i = 0; i < peso.length; i++) {
+            if (!isVisited[i]){
+                if(peso[i]<mindis){
+                    mindis=peso[i];
+                    j=i;
+                }
+            }
+        }
+        return j;
+    }
+}

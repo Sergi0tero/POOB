@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Registro
+comment1.params=object\ action\ color\ x\ y\ armies\ locationA\ locationB\ cost
+comment1.target=Registro(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ java.lang.String,\ java.lang.String,\ int)
+numComments=2

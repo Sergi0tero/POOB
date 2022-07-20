@@ -1,0 +1,5 @@
+Sergio          500
+Camilo          400
+Otero          300
+Archila          200
+CPU          200

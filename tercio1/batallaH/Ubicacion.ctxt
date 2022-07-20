@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Ubicacion
+comment1.params=
+comment1.target=Ubicacion()
+comment2.params=
+comment2.target=int\ getLongitud()
+comment3.params=
+comment3.target=int\ getLatitud()
+comment4.params=latitud
+comment4.target=void\ setLatitud(int)
+comment5.params=longitud
+comment5.target=void\ setLongitud(int)
+numComments=6

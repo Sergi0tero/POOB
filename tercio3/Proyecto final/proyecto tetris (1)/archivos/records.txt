@@ -1,0 +1,5 @@
+alo          600
+alo          600
+Sergio          500
+Camilo          400
+Otero          300

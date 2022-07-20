@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Chat
+comment1.params=tags
+comment1.target=void\ tag(java.util.ArrayList)
+numComments=2

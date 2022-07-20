@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="artico">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lab6/out/production/artico/artico.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

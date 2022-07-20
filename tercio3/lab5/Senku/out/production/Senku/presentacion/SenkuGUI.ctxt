@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=SenkuGUI
+comment0.text=\r\n\ @author\ Archila-Otero\r\n
+comment1.params=
+comment1.target=SenkuGUI()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=
+comment3.target=void\ prepareElementos()
+comment4.params=
+comment4.target=void\ prepareAcciones()
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=e
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.params=e
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment8.params=
+comment8.target=void\ salga()
+numComments=9

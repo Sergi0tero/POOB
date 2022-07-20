@@ -1,0 +1,66 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-jsr223-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-groovysh-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-jsr223-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-toml-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-json-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-datetime-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-ant-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-nio-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-groovydoc-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-test-junit5-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-templates-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-jmx-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-contracts-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-servlet-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-test-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-ginq-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-dateutil-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-xml-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-groovysh-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-macro-library-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-console-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-sql-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-dateutil-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-testng-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-console-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-macro-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-cli-picocli-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-jmx-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-cli-commons-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-sql-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-test-junit5-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-macro-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-swing-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-docgenerator-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-astbuilder-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-groovydoc-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-macro-library-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-astbuilder-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-templates-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-nio-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-ant-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-servlet-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-test-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-docgenerator-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-cli-picocli-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-toml-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-datetime-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-testng-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-xml-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-cli-commons-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-ginq-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-typecheckers-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-swing-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-typecheckers-4.0.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-contracts-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-json-4.0.0-beta-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/proyecto tetris/proyecto tetris/lib/groovy-4.0.0-beta-1-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

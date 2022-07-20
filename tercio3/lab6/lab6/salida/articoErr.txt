@@ -1,0 +1,3 @@
+se encontro que Las posiciones no son enteros en la linea 1 en la palabra 3
+se encontro que Las posiciones no son enteros en la linea 3 en la palabra 3
+se encontro que Las posiciones no son enteros en la linea 7 en la palabra 3

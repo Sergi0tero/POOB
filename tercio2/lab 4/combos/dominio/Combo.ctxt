@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Combo
+comment1.params=nombre\ descuento
+comment1.target=Combo(java.lang.String,\ int)
+comment1.text=\r\n\ Crea\ un\ nuevo\ combo\r\n\ @param\ nombre\ \r\n\ @param\ descuento\r\n
+comment2.params=
+comment2.target=java.lang.String\ nombre()
+comment3.params=p
+comment3.target=void\ adProducto(Producto)
+comment4.params=
+comment4.target=int\ precio()
+comment4.text=\r\n\ Calcula\ el\ precio\ por\ omision\ de\ un\ combo.\r\n\ @return\ precio\ Precio\ del\ producto\r\n\ @throws\ ComboOfertasExcepcion\ COMBO_VACIO,\ si\ no\ tiene\ productos\r\n
+comment5.params=
+comment5.target=int\ precioOmision()
+comment5.text=\r\n\ Calcula\ el\ precio\ por\ omision\ de\ un\ combo.\r\n\ Para\ los\ productos\ cuyo\ valor\ se\ desconoce\ se\ asume\ el\ PRECIO_BASE\r\n\ @return\ \r\n\ @throws\ ComboOfertasExcepcion\ COMBO_VACIO,\ si\ no\ tiene\ productos\r\n
+comment6.params=
+comment6.target=int\ precioEstimado()
+comment6.text=\r\n\ Calcula\ el\ precio\ estimado\r\n\ Se\ asume\ que\ el\ precio\ de\ los\ productos\ con\ precio\ desconocido\ es\ el\ precio\ mayor\ de\ los\ conocidos\r\n\ Se\ asume\ que\ el\ precio\ de\ los\ productos\ con\ un\ precio\ erroneo\ es\ el\ precio\ menor\ de\ los\ conocidos\r\n\ @return\ el\ precio\ estimado\ de\ un\ combo\r\n\ @throws\ ComboOfertasExcepcion\ COMBO_VACIO\ si\ no\ hay\ productos\ o\ COMBO_SIN_PRECIOS\ no\ se\ conocen\ los\ precios\ de\ ninguno\r\n
+comment7.params=
+comment7.target=int\ precioOferta()
+comment7.text=\r\n\ Calcula\ el\ precio\ de\ la\ oferta\r\n\ El\ precio\ de\ oferta\ es\ el\ total,\ si\ se\ conoce.\ O\ el\ mayor\ entre\ el\ asumido\ y\ el\ estimado,\ si\ se\ conocen\ los\ dos.\ \r\n\ Se\ asume\ que\ el\ precio\ de\ los\ productos\ con\ un\ precio\ erroneo\ es\ el\ precio\ menor\ de\ los\ conocidos\r\n\ @return\ el\ precio\ de\ la\ oferta\ de\ un\ combo\r\n\ @throws\ ComboOfertasExcepcion\ COMBO_VACIO\ si\ no\ tiene\ productos\ y\ COMBO_NO_VIGENTE\ si\ no\ tiene\ precio\ de\ oferta\r\n
+comment8.params=
+comment8.target=java.lang.String\ oferta()
+numComments=9

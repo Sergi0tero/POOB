@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=ComboOfertas
+comment0.text=\r\n\ Combo\ Ofertas\r\n\ @author\ POOB\ \ \r\n\ @version\ ECI\ 2021\r\n
+comment1.params=
+comment1.target=ComboOfertas()
+comment1.text=\r\n\ Inicia\ un\ kiosko\ vacio\r\n
+comment2.params=
+comment2.target=void\ adicioneEjemplares()
+comment3.params=nombre
+comment3.target=Combo\ consulte(java.lang.String)
+comment3.text=\r\n\ Consulta\ un\ combo\r\n\ @param\ nombre\ El\ nombre\ del\ combo\ a\ buscar\r\n\ @return\ \r\n
+comment4.params=nombre\ descuento\ productos
+comment4.target=void\ adicione(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ Adiciona\ un\ nuevo\ combo\ a\ la\ oferta\r\n\ @param\ nombre\ \r\n\ @param\ descuento\r\n\ @param\ productos\r\n
+comment5.params=nombre
+comment5.target=void\ nombreValido(java.lang.String)
+comment6.params=prefijo
+comment6.target=java.util.ArrayList\ busque(java.lang.String)
+comment6.text=\r\n\ Consulta\ las\ combos\ que\ inican\ con\ un\ prefijo\r\n\ @param\ prefijo\ El\ prefijo\ a\ buscar\r\n\ @return\ Los\ combos\ encontrados\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Consulta\ todas\ las\ ofertas\r\n\ @return\ \ \r\n
+comment8.params=
+comment8.target=int\ numeroCombos()
+comment8.text=\r\n\ Consulta\ el\ numero\ de\ Combos\r\n\ @return\ Numero\ de\ Combos\r\n
+numComments=9

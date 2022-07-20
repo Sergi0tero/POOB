@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Maquina
+comment1.params=
+comment1.target=Maquina()
+comment2.params=dLon\ dLat
+comment2.target=void\ move(int,\ int)
+comment3.params=longitud\ latitud
+comment3.target=boolean\ ubi(int,\ int)
+comment4.params=
+comment4.target=boolean\ debilitado()
+comment5.params=cas
+comment5.target=void\ causa(java.lang.String)
+numComments=6

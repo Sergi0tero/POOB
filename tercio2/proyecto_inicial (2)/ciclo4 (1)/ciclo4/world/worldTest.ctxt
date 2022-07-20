@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=worldTest
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment10.params=
+comment10.target=void\ deberiacomparardenuevoelcosto()
+comment11.params=
+comment11.target=void\ deberiasolucionarelmundo()
+comment2.params=
+comment2.target=void\ nodeberiaa\u00F1adirnacion()
+comment3.params=
+comment3.target=void\ deberiacompararconquista()
+comment4.params=
+comment4.target=void\ nodeberiaa\u00F1adirarmy()
+comment5.params=
+comment5.target=void\ nodeberiamoverarmy()
+comment6.params=
+comment6.target=void\ deberiacompararloscostos()
+comment7.params=
+comment7.target=void\ deberiasercorrecto()
+comment8.params=
+comment8.target=void\ nodeberiaestarconquistado()
+comment9.params=
+comment9.target=void\ deberiaestarconquistado()
+numComments=12

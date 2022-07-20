@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CalVectorial
+comment0.text=\ Calculadora.java\r\n\ Representa\ una\ calculadora\ de\ vectores\ \r\n\ @author\ ESCUELA\ 2017-02\ v01\ 2121-02\ v02\r\n
+comment1.params=
+comment1.target=CalVectorial()
+comment2.params=nombre
+comment2.target=void\ defina(java.lang.String)
+comment3.params=a\ longitud\ grados
+comment3.target=void\ asigne(java.lang.String,\ float,\ float)
+comment4.params=a\ op\ b
+comment4.target=void\ asigne(java.lang.String,\ char,\ java.lang.String)
+comment5.params=a\ b\ op\ c
+comment5.target=void\ asigne(java.lang.String,\ java.lang.String,\ char,\ java.lang.String)
+comment6.params=a
+comment6.target=java.lang.String\ consulteEnPolares(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String[]\ getVectores()
+comment8.params=a
+comment8.target=java.lang.String\ consulteEnCartesianas(java.lang.String)
+comment9.params=
+comment9.target=boolean\ ok()
+numComments=10

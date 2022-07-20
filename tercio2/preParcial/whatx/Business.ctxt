@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Business
+comment1.params=name\ color
+comment1.target=void\ createTag(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Create\ a\ new\ tag\ for\ user\ business\r\n\ @param\ name\ -\ Tag\ name\r\n\ @param\ color\ -\ Tag\ color\r\n
+numComments=2
